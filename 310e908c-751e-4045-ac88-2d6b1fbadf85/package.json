@@ -1,5 +1,5 @@
 {
-  "name": "ba026ebc-b7b5-409d-8cbc-b2d3a8677235",
+  "name": "dcl-project",
   "version": "1.0.0",
   "description": "My new Decentraland project",
   "scripts": {
@@ -11,10 +11,9 @@
     "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
   },
   "devDependencies": {
-    "decentraland-ecs": "latest"
+    "decentraland-ecs": "^6.6.2-20201127184727.commit-60d005c"
   },
   "dependencies": {
-    "decentraland-ecs": "latest",
-    "decentraland-builder-scripts": "latest"
+    "decentraland-builder-scripts": "^0.24.0"
   }
 }
