@@ -8362,31 +8362,31 @@ const transform138 = new Transform({
 })
 entity4.addComponentOrReplace(transform138)
 
-const newstudzartcadebuilding = new Entity('newstudzartcadebuilding')
-engine.addEntity(newstudzartcadebuilding)
-newstudzartcadebuilding.setParent(_scene)
-const transform139 = new Transform({
-  position: new Vector3(16, 0, 16),
-  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
-})
-newstudzartcadebuilding.addComponentOrReplace(transform139)
-const gltfShape21 = new GLTFShape("models/NewStudzArtcadeBuilding_8.gltf")
-gltfShape21.withCollisions = true
-gltfShape21.isPointerBlocker = true
-gltfShape21.visible = true
-newstudzartcadebuilding.addComponentOrReplace(gltfShape21)
-
 const blueAcaciaTree2 = new Entity('blueAcaciaTree2')
 engine.addEntity(blueAcaciaTree2)
 blueAcaciaTree2.setParent(_scene)
-const transform140 = new Transform({
+const transform139 = new Transform({
   position: new Vector3(27.23755645751953, 40.389034271240234, 4.861242294311523),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(0.587049663066864, 0.587049663066864, 0.587049663066864)
 })
-blueAcaciaTree2.addComponentOrReplace(transform140)
+blueAcaciaTree2.addComponentOrReplace(transform139)
 blueAcaciaTree2.addComponentOrReplace(gltfShape9)
+
+const dragonbuildingLightenUp = new Entity('dragonbuildingLightenUp')
+engine.addEntity(dragonbuildingLightenUp)
+dragonbuildingLightenUp.setParent(_scene)
+const transform140 = new Transform({
+  position: new Vector3(16, 0, 16),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
+})
+dragonbuildingLightenUp.addComponentOrReplace(transform140)
+const gltfShape21 = new GLTFShape("models/DragonBuilding_LightenUp_2.gltf")
+gltfShape21.withCollisions = true
+gltfShape21.isPointerBlocker = true
+gltfShape21.visible = true
+dragonbuildingLightenUp.addComponentOrReplace(gltfShape21)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
