@@ -1557,7 +1557,7 @@ const transform140 = new Transform({
   scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
 })
 newstudzartcadebuilding.addComponentOrReplace(transform140)
-const gltfShape22 = new GLTFShape("models/NewStudzArtcadeBuilding_3.gltf")
+const gltfShape22 = new GLTFShape("models/NewStudzArtcadeBuilding_7.gltf")
 gltfShape22.withCollisions = true
 gltfShape22.isPointerBlocker = true
 gltfShape22.visible = true
