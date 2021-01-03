@@ -1,6 +1,6 @@
 {
   "display": {
-    "title": "Studz Dragon New Building (Version 2)",
+    "title": "Studz Dragon Paint Test",
     "favicon": "favicon_asset",
     "navmapThumbnail": "scene-thumbnail.png"
   },
@@ -34,7 +34,7 @@
   "source": {
     "version": 1,
     "origin": "builder",
-    "projectId": "08ac0f1f-8d56-4691-9526-200f644aaf68",
+    "projectId": "94c6e6f5-a897-4b02-a860-5bcbf30b34c9",
     "point": {
       "x": 0,
       "y": 0
