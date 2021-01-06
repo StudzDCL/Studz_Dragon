@@ -1009,7 +1009,7 @@ const greenStar = new Entity('greenStar')
 engine.addEntity(greenStar)
 greenStar.setParent(_scene)
 const transform92 = new Transform({
-  position: new Vector3(15.569974899291992, 36.83098602294922, 15.671768188476562),
+  position: new Vector3(15.921262741088867, 42.79351043701172, 18.426597595214844),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -1525,20 +1525,20 @@ gltfShape18.isPointerBlocker = true
 gltfShape18.visible = true
 armchairWhiteModern.addComponentOrReplace(gltfShape18)
 
-const studzdragonTryWallColorChange = new Entity('studzdragonTryWallColorChange')
-engine.addEntity(studzdragonTryWallColorChange)
-studzdragonTryWallColorChange.setParent(_scene)
+const studzdragonmoonroof = new Entity('studzdragonmoonroof')
+engine.addEntity(studzdragonmoonroof)
+studzdragonmoonroof.setParent(_scene)
 const transform139 = new Transform({
   position: new Vector3(16, 0, 16),
   rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
 })
-studzdragonTryWallColorChange.addComponentOrReplace(transform139)
-const gltfShape19 = new GLTFShape("models/StudzDragon_TryWallColorChange_2.gltf")
+studzdragonmoonroof.addComponentOrReplace(transform139)
+const gltfShape19 = new GLTFShape("models/StudzDragonMoonRoof_15.gltf")
 gltfShape19.withCollisions = true
 gltfShape19.isPointerBlocker = true
 gltfShape19.visible = true
-studzdragonTryWallColorChange.addComponentOrReplace(gltfShape19)
+studzdragonmoonroof.addComponentOrReplace(gltfShape19)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
