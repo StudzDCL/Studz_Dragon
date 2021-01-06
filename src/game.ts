@@ -1525,20 +1525,20 @@ gltfShape18.isPointerBlocker = true
 gltfShape18.visible = true
 armchairWhiteModern.addComponentOrReplace(gltfShape18)
 
-const studzdragonmoonroof = new Entity('studzdragonmoonroof')
-engine.addEntity(studzdragonmoonroof)
-studzdragonmoonroof.setParent(_scene)
+const studzdragonmoonroofFinal = new Entity('studzdragonmoonroofFinal')
+engine.addEntity(studzdragonmoonroofFinal)
+studzdragonmoonroofFinal.setParent(_scene)
 const transform139 = new Transform({
   position: new Vector3(16, 0, 16),
   rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
 })
-studzdragonmoonroof.addComponentOrReplace(transform139)
-const gltfShape19 = new GLTFShape("models/StudzDragonMoonRoof_15.gltf")
+studzdragonmoonroofFinal.addComponentOrReplace(transform139)
+const gltfShape19 = new GLTFShape("models/StudzDragonMoonRoof_Final.gltf")
 gltfShape19.withCollisions = true
 gltfShape19.isPointerBlocker = true
 gltfShape19.visible = true
-studzdragonmoonroof.addComponentOrReplace(gltfShape19)
+studzdragonmoonroofFinal.addComponentOrReplace(gltfShape19)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
